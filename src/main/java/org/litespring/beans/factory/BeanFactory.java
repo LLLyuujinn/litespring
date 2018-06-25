@@ -10,13 +10,6 @@ import org.litespring.beans.BeanDefinition;
 public interface BeanFactory {
 
 	/**
-	 * 获取一个bean工厂
-	 * @param beanId
-	 * @return
-	 */
-	BeanDefinition getBeanDefinition(String beanId);
-
-	/**
 	 * 获取这个bean的对象实例
 	 * @param beanId
 	 * @return
