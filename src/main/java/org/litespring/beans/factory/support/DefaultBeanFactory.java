@@ -28,7 +28,7 @@ public class DefaultBeanFactory implements BeanFactory,BeanDefinitionRegistry {
 	}
 
 	/**
-	 * 根据id获取一个BeanDefinition工厂实例（bean对象）
+	 * 根据id获取一个BeanDefinition实例（bean对象）
 	 * @param beanId <bean>标签中的id
 	 * @return bean工厂实例
 	 */
